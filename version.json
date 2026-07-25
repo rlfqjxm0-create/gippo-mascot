@@ -1,7 +1,7 @@
 {
- "version": 1784964568,
+ "version": 1784965666,
  "files": {
-  "mascot.py": "2e905a09bd1ed5f95ee720d7d631c4367c4acf69dd0a64a928ee017d162a9a98",
+  "mascot.py": "ae2baf1d93f2f66699dfbcde3ee6e86c9629745ffe5b1a399f12236c857dd335",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -58,6 +58,7 @@
   "parts_gippo/sounds/pen/clip_5.wav": "52237409b942b76ba313bd20bb8b3222b40a8a87fd33f941c7fd2485b8aa35c8",
   "parts_gippo/sounds/pen/clip_6.wav": "ffdb7c929f56e1f27bca1322413e3355497e013248727ccbe940965686b6144e",
   "parts_gippo/sounds/pen/sustain.wav": "8d6c2a284c4c9c03ce58e97fdb3f8ca2f6a930be01173e7b32987ca8fa5815d8",
+  "parts_gippo/sounds/poke/poke.wav": "5b4691361a56af9c93ba9ea7429715d60941784d82afcfc715a07b733b4ff213",
   "parts_gippo/sounds/Razer Huntman TE - Revolt/config.json": "e55ae83c67b963e9319103455e45e2f56014260aec60cf0b525c8cbff83b8194",
   "parts_gippo/sounds/Razer Huntman TE - Revolt/Razer huntman TE.wav": "a9d8bc23f71821e4cdb7212c37275d9f0fc66d9c285e55e13d6829b7f7b438e1",
   "parts_gippo/sounds/tealios-v2_Akira/back.wav": "72c5142e29793443f094aad7be3401059752bb956187b58e9c0e145a65937301",
@@ -77,7 +78,7 @@
   "parts_gippo/sounds/tealios-v2_Akira/tab.wav": "0718e9c5b1311b80d3337617d28667297eee897fa56d3d5a1174b94071fbcbf6"
  },
  "notes": [
-  "혼잣말이 훨씬 다양해졌어요",
-  "무슨 말을 할지는 지켜봐 주세요"
+  "캐릭터를 누르면 소리가 나요",
+  "환경설정에서 크기를 조절하거나 끌 수 있어요"
  ]
 }
