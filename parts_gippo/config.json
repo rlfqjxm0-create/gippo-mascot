@@ -1,0 +1,50 @@
+{
+ "name": "기뽀",
+ "scale": 0.3,
+ "screen_quad": [
+  [
+   247,
+   1098
+  ],
+  [
+   470,
+   1096
+  ],
+  [
+   468,
+   1188
+  ],
+  [
+   243,
+   1190
+  ]
+ ],
+ "blink": null,
+ "trail_color": "#8cc63f",
+ "hard_alpha": true,
+ "timer": {
+  "enabled": true,
+  "idle_sec": 15
+ },
+ "fun": true,
+ "arms_over_head": true,
+ "back_motion": "flap",
+ "back_amp": 0.22,
+ "back_period": 1.1,
+ "card": {
+  "bg": "#ffffff",
+  "border": "#9ccc50",
+  "text": "#456b22",
+  "sub": "#a3c483",
+  "track": "#eef7e2",
+  "fill": "#7fb436",
+  "deco": "panda",
+  "panel": "#fbfdf7",
+  "soft": "#eef7e2",
+  "line": "#e4f0d4"
+ },
+ "card_top": 44,
+ "todo": true,
+ "records": true,
+ "pen_grain": true
+}
