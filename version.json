@@ -1,5 +1,5 @@
 {
- "version": 1784955408,
+ "version": 1784964568,
  "files": {
   "mascot.py": "2e905a09bd1ed5f95ee720d7d631c4367c4acf69dd0a64a928ee017d162a9a98",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
@@ -8,7 +8,7 @@
   "parts_gippo/arm_right_typing.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/back.png": "c1c1a85bc9a07bb82b1adf2afcaacd585fa5b29f90a2f4af80226a1154c31381",
   "parts_gippo/body_open.png": "52435ff509fc21ba8611000acb3aef8b61caf10e9fda3a1ed2bea545d92c2a23",
-  "parts_gippo/config.json": "6a70ae6dac06a620b15b14344ae296cc6d2fef89ec51da595849ff860e15b14c",
+  "parts_gippo/config.json": "b5bc7e7e7c35513f8581b5e4595a6030372d1c66e4ab6d389b1b4190666dfba9",
   "parts_gippo/desk.png": "7d715a2d3cb6e2941a3af6cb59de47b966f7185072d190e5d81e10a62f009745",
   "parts_gippo/eyes_closed.png": "abe94a4b64cc1d19c1362d57c45142ac015575656c4696a19af87870693a04e1",
   "parts_gippo/hair.png": "b6652d07e00ee7f8e3cce8b2fe6e43dea9d42a55867d9953a38c7fa86f328769",
@@ -77,7 +77,7 @@
   "parts_gippo/sounds/tealios-v2_Akira/tab.wav": "0718e9c5b1311b80d3337617d28667297eee897fa56d3d5a1174b94071fbcbf6"
  },
  "notes": [
-  "할 일 우클릭이 가끔 설정 창을 열던 문제를 고쳤어요",
-  "크기를 줄여도 타이머 카드가 안 잘려요"
+  "혼잣말이 훨씬 다양해졌어요",
+  "무슨 말을 할지는 지켜봐 주세요"
  ]
 }
