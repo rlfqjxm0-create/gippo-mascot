@@ -1,7 +1,7 @@
 {
- "version": 1784965666,
+ "version": 1784966124,
  "files": {
-  "mascot.py": "ae2baf1d93f2f66699dfbcde3ee6e86c9629745ffe5b1a399f12236c857dd335",
+  "mascot.py": "21deb81b6ef257d1cfaaabf4243e40b2b91236243b26e76602d77c50bf3a6a11",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -78,7 +78,6 @@
   "parts_gippo/sounds/tealios-v2_Akira/tab.wav": "0718e9c5b1311b80d3337617d28667297eee897fa56d3d5a1174b94071fbcbf6"
  },
  "notes": [
-  "캐릭터를 누르면 소리가 나요",
-  "환경설정에서 크기를 조절하거나 끌 수 있어요"
+  "자잘한 오류를 고쳤어요"
  ]
 }
