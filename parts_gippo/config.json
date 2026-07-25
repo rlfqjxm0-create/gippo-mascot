@@ -47,5 +47,10 @@
  "todo": true,
  "records": true,
  "pen_grain": true,
- "back_jitter": 0.5
+ "back_jitter": 0.5,
+ "hat_scale": 0.22,
+ "hat_pos": [
+  -26,
+  64
+ ]
 }
