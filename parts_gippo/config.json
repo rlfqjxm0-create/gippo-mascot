@@ -30,7 +30,7 @@
  "arms_over_head": true,
  "back_motion": "flap",
  "back_amp": 0.22,
- "back_period": 1.1,
+ "back_period": 1.0,
  "card": {
   "bg": "#ffffff",
   "border": "#9ccc50",
@@ -38,7 +38,7 @@
   "sub": "#a3c483",
   "track": "#eef7e2",
   "fill": "#7fb436",
-  "deco": "panda",
+  "deco": "sprout",
   "panel": "#fbfdf7",
   "soft": "#eef7e2",
   "line": "#e4f0d4"
@@ -46,5 +46,6 @@
  "card_top": 44,
  "todo": true,
  "records": true,
- "pen_grain": true
+ "pen_grain": true,
+ "back_jitter": 0.5
 }
