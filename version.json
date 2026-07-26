@@ -1,14 +1,14 @@
 {
- "version": 1785051597,
+ "version": 1785051905,
  "files": {
-  "mascot.py": "f9db50e3c82bb2c3521985b1e73235c2275f8b695ff4639c5a82eaf6daae8a9c",
+  "mascot.py": "37efeee5cfadde6413de6c3b02dd4dfb4f1adab0748e57f9b4e8753932129cd8",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
   "parts_gippo/arm_right_typing.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/back.png": "c1c1a85bc9a07bb82b1adf2afcaacd585fa5b29f90a2f4af80226a1154c31381",
   "parts_gippo/body_open.png": "52435ff509fc21ba8611000acb3aef8b61caf10e9fda3a1ed2bea545d92c2a23",
-  "parts_gippo/config.json": "d50e6eab76c0fb8dc6a6ca3ae13703a1d59d5b7072aa342c9b9b4e1953a1ae3e",
+  "parts_gippo/config.json": "273240f5fd33d750bb44bc72956e2e9e21705637e36a5a03704766f67bc249e1",
   "parts_gippo/desk.png": "7d715a2d3cb6e2941a3af6cb59de47b966f7185072d190e5d81e10a62f009745",
   "parts_gippo/eyes_closed.png": "abe94a4b64cc1d19c1362d57c45142ac015575656c4696a19af87870693a04e1",
   "parts_gippo/hair.png": "b6652d07e00ee7f8e3cce8b2fe6e43dea9d42a55867d9953a38c7fa86f328769",
@@ -78,6 +78,7 @@
   "parts_gippo/sounds/tealios-v2_Akira/tab.wav": "0718e9c5b1311b80d3337617d28667297eee897fa56d3d5a1174b94071fbcbf6"
  },
  "notes": [
+  "20분마다 기지개를 켜며 스트레칭을 권합니다.",
   "동작 중 문제가 생겨도 캐릭터가 멈추거나 사라지지 않도록 보완했습니다."
  ]
 }
