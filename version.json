@@ -1,7 +1,7 @@
 {
- "version": 1785050561,
+ "version": 1785051597,
  "files": {
-  "mascot.py": "36162d4b1be12a7d4f3197ed78a1b684f5c067ad297ad6bdaae629f4c0eda806",
+  "mascot.py": "f9db50e3c82bb2c3521985b1e73235c2275f8b695ff4639c5a82eaf6daae8a9c",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -78,7 +78,6 @@
   "parts_gippo/sounds/tealios-v2_Akira/tab.wav": "0718e9c5b1311b80d3337617d28667297eee897fa56d3d5a1174b94071fbcbf6"
  },
  "notes": [
-  "캐릭터가 상황에 따라 움직입니다 — 인사, 박수, 기지개, 고개짓, 리듬 타기.",
-  "그리거나 타자 치는 중에도 동작이 끊기지 않습니다."
+  "동작 중 문제가 생겨도 캐릭터가 멈추거나 사라지지 않도록 보완했습니다."
  ]
 }
