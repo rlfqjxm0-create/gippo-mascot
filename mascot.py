@@ -3045,6 +3045,10 @@ class Mascot:
             if abs(self._tilt_fit(self._rot_head(-deg))) <= 8:
                 self._tilt_max = float(deg)
                 break
+        # 창 안에 들어가도 '보기에' 자연스러운 각도는 캐릭터마다 다르다.
+        # 기뽀처럼 머리 밑변이 평평하고 몸과 겹치는 부분이 얇으면, 조금만
+        # 기울여도 머리가 벗겨져 굴러떨어지는 것처럼 보인다(제보).
+        self._tilt_max *= max(0.0, min(1.0, float(self.cfg.get("tilt_scale", 1.0))))
 
     def _rot_head(self, deg, mode="sleep"):
         p = self.TILT_PAD
