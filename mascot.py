@@ -2462,6 +2462,10 @@ class Mascot:
         # 판단하는지 파일에 남긴다 — 맥 다중 모니터 문제를 보려는 것.
         self._diag_left = self.PEN_DIAG_MAX if self.cfg.get("pen_diag") else 0
         self._diag_last = None       # 마지막으로 기록한 화면 사각형
+        # 머리 자리 진단 (config의 head_diag를 켠 캐릭터만)
+        self._hd_left = self.HEAD_DIAG_MAX if self.cfg.get("head_diag") else 0
+        self._hd_head = False        # 첫머리를 남겼는가
+        self._hd_at = 0.0
         self._diag_at = 0.0          # 마지막으로 기록한 시각
         self.shadow_img_type = None  # 타자 자세용 그림자 (깃펜 없음)
         self._shadow_base = None
@@ -6859,6 +6863,42 @@ class Mascot:
         self._put("arm_pen", px, py)
         self._pen_draw = None
 
+    HEAD_DIAG = ".head_diag.txt"     # 머리 자리 진단 기록
+    HEAD_DIAG_MAX = 120
+
+    def _head_diag(self, kind, got, want, extra=""):
+        """머리가 제자리에서 벗어난 프레임을 남긴다.
+
+        '머리가 몸에서 빠진다'는 제보를 내 컴퓨터에서 재현하지 못해, 실제로
+        쓰는 컴퓨터에서 어떤 값이 나오는지 받아 보려고 둔다.
+        """
+        if self._hd_left <= 0:
+            return
+        try:
+            path = os.path.join(self.state_dir, self.HEAD_DIAG)
+            if not self._hd_head:
+                self._hd_head = True
+                with open(path, "w", encoding="utf-8") as fp:
+                    fp.write("=== %s / %s ===\n" % (
+                        time.strftime("%Y-%m-%d %H:%M:%S"), self.char))
+                    fp.write("배율=%.3f 크기설정=%s 창=%dx%d oy=%s ox=%s\n" % (
+                        self.s, self.us.get("scale_pct"), self.W, self.H,
+                        self.oy, self.ox))
+                    fp.write("기울기상한=%s 목=%s 머리상자=%s pad=%d\n" % (
+                        self._tilt_max, self._neck, self._head_box,
+                        self.TILT_PAD))
+                    fp.write("-- 아래는 머리가 제자리를 벗어난 프레임 --\n")
+            now = time.time()
+            if now - self._hd_at < 0.25:      # 너무 촘촘히 남기지 않는다
+                return
+            self._hd_at = now
+            self._hd_left -= 1
+            with open(path, "a", encoding="utf-8") as fp:
+                fp.write("%s %-6s 그린자리=%s 기대=%s %s\n" % (
+                    time.strftime("%H:%M:%S"), kind, got, want, extra))
+        except Exception:
+            self._hd_left = 0
+
     def _draw_head(self, now, yo, pdx, pdy, blinking, smiling, sleeping):
         """머리 + 얼굴 (자는 중이면 목을 축으로 기울인 합성본)."""
         c = self.canvas
@@ -6883,7 +6923,13 @@ class Mascot:
                         else "smile" if (smiling and self._tilt_base_smile is not None)
                         else "awake")
                 img, tdx = self._sleep_head(tilt, mode)
-                c.create_image(tdx - p, self.oy - p + hyo, anchor="nw", image=img)
+                gx, gy = tdx - p, self.oy - p + hyo
+                c.create_image(gx, gy, anchor="nw", image=img)
+                if self._hd_left > 0 and (abs(gx + p) > 3 or abs(tdx) > 3):
+                    self._head_diag("기울임", (round(gx), round(gy)),
+                                    (-p, round(self.oy - p)),
+                                    "tilt=%.2f mode=%s tdx=%d hyo=%.1f 자는중=%s"
+                                    % (tilt, mode, tdx, hyo, sleeping))
                 if sleeping:
                     self._draw_snot(now, hyo, tilt, tdx)
             except Exception:
@@ -6891,6 +6937,13 @@ class Mascot:
                 self._log_error("head_tilt")
         if tilt is None:
             hx, hy = self._pos("head")
+            if self._hd_left > 0:
+                want = self._pos("head")
+                if abs(hx - want[0]) > 3:
+                    self._head_diag("보통", (round(hx), round(hy + hyo)),
+                                    (round(want[0]), round(want[1])),
+                                    "g_tilt=%.2f 상한=%.1f" % (self._g_tilt,
+                                                              self._tilt_max))
             self._put("head", hx, hy + hyo)
             self._draw_face(hyo, pdx, pdy, blinking, smiling)
 
