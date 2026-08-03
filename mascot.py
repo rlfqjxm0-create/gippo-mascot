@@ -3058,7 +3058,9 @@ class Mascot:
         p = self.TILT_PAD
         base = {"awake": self._tilt_base_awake,
                 "smile": self._tilt_base_smile}.get(mode) or self._tilt_base
-        return base.rotate(deg, center=(self._neck[0] + p, self._neck[1] + p),
+        # _neck은 화면 좌표(ox 포함)인데 합성판은 ox가 없다 — 빼고 돌린다
+        return base.rotate(deg, center=(self._neck[0] - self.ox + p,
+                                        self._neck[1] + p),
                            resample=self._resample())
 
     def _tilt_fit(self, im):
@@ -3067,7 +3069,9 @@ class Mascot:
         bb = im.split()[3].getbbox()
         if not bb:
             return 0
-        return max((p + 2) - bb[0], 0) - max(bb[2] - (p + self.W - 2), 0)
+        # 그릴 때 ox만큼 오른쪽으로 밀리므로 그것까지 계산에 넣는다
+        return (max(p + 2 - self.ox - bb[0], 0)
+                - max(bb[2] + self.ox - (p + self.W - 2), 0))
 
     def _sleep_head(self, deg, mode="sleep"):
         """기울어진 머리 — (이미지, 창 안으로 미는 보정값), 1도 단위 캐시."""
@@ -6923,7 +6927,11 @@ class Mascot:
                         else "smile" if (smiling and self._tilt_base_smile is not None)
                         else "awake")
                 img, tdx = self._sleep_head(tilt, mode)
-                gx, gy = tdx - p, self.oy - p + hyo
+                # 합성판은 파츠를 ox 없이 붙여 만든다. 캐릭터가 작아 카드보다
+                # 좁으면 ox만큼 오른쪽으로 밀어 놓는데, 여기서 그 값을 빼먹으면
+                # 고개를 기울일 때마다 머리만 ox만큼 왼쪽으로 튄다
+                # (크기 50%에서 29px — '머리가 몸에서 빠진다' 제보의 원인).
+                gx, gy = tdx - p + self.ox, self.oy - p + hyo
                 c.create_image(gx, gy, anchor="nw", image=img)
                 if self._hd_left > 0 and (abs(gx + p) > 3 or abs(tdx) > 3):
                     self._head_diag("기울임", (round(gx), round(gy)),
