@@ -1,20 +1,31 @@
 {
- "version": 1785884423,
+ "version": 1786043138,
  "files": {
-  "mascot.py": "9c046beca3f34af773e79e314ac143429f07278b69874717db071b222f87c059",
+  "mascot.py": "a8e33e4ca88f05919f3371ba021808b160a151de25ba9939e217a01806e86982",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
   "parts_gippo/arm_right_typing.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/back.png": "c1c1a85bc9a07bb82b1adf2afcaacd585fa5b29f90a2f4af80226a1154c31381",
   "parts_gippo/body_open.png": "52435ff509fc21ba8611000acb3aef8b61caf10e9fda3a1ed2bea545d92c2a23",
-  "parts_gippo/config.json": "8f60a838f54c57e5dfae5a0fad5f9670c27b7a4c7b0e7400c1034435ef7035a3",
+  "parts_gippo/config.json": "b5d3249c935b019009667187bb26ee1b933073cc27fe86e8b47fefad3ab44796",
   "parts_gippo/desk.png": "7d715a2d3cb6e2941a3af6cb59de47b966f7185072d190e5d81e10a62f009745",
   "parts_gippo/eyes_closed.png": "abe94a4b64cc1d19c1362d57c45142ac015575656c4696a19af87870693a04e1",
   "parts_gippo/hair.png": "b6652d07e00ee7f8e3cce8b2fe6e43dea9d42a55867d9953a38c7fa86f328769",
   "parts_gippo/hat.png": "4bd1da80b760cff3694c7b21350e8dce6a177026846dcd737d796ad7560f277f",
   "parts_gippo/head.png": "0396e202af9beead3c6b118dccd82dbec49310c35839f971cec7eb4f38d9323a",
-  "parts_gippo/layout.json": "dde411c44eebf786ede95e3ed0b93d71aaa73b43b027d54a6ad5ff5ad9ca97a5",
+  "parts_gippo/layout.json": "7add804c28dc3ab007f4f0e7ff5054e2fde05e557b2b1ac381ec469b2324249e",
+  "parts_gippo/prop1.png": "9c9a9e473d4555c27bd79cf034d8e89f1e24d3ceb135e22af2bd1e9e124eae0f",
+  "parts_gippo/prop2.png": "9bc9d054486d8bae5265b8e32578f2775e46a282454d2507d7928bca65e2f139",
+  "parts_gippo/prop3.png": "c747b74d6f50d0a99ff15c96512b0fc53865a8796d88df9686442df5a1df7f97",
+  "parts_gippo/prop4.png": "04490f5b20b6384e8892f60b8e9631e34058c5afb4fab1fb1f7a5168b3119037",
+  "parts_gippo/prop5.png": "d973fbc579944fb7d1bf7c10c33a0f9bbdafcae275468539040cde5cf0065d34",
+  "parts_gippo/prop6.png": "4e824dc21fcb72416b4831acc99e59c84c154243e4c3b8cd72a3dd96e0852d43",
+  "parts_gippo/prop7.png": "5c590db3a03344f73c7d0becdb9f7b9371d0dc478a8c3ec1a174824815805f1a",
+  "parts_gippo/prop7_back.png": "26f3d7630fa1e1c9849da49b1045cc3a88479619c2154ca613be0919676fc36f",
+  "parts_gippo/prop8.png": "946d9c8e69fc10b7c6a6b4ae8d1788dae303f8bd2b0b87d9a803278f080de172",
+  "parts_gippo/prop8_back.png": "8947115f1399f47d35a793ae7ffef9a7943ef7292d40a89c62f56d4ed840364f",
+  "parts_gippo/prop9.png": "f3708e680e77d73e8dc34c27aaee073fbcd13360925a9ed6747a615b8bacd599",
   "parts_gippo/pupils.png": "9be116dd5f50b86abcb0a03073f749cf6b2b92fdb39b6152779c3e4b4a64b7e4",
   "parts_gippo/smile.png": "cef7dcbeba73987a928e71556add039873afe4680675c003b9941aeaa4b78c49",
   "parts_gippo/sounds/apex-pro-tkl-v2_Akira/config.json": "7511749602b0050f49964cf0255e0affb3871d852bf7bc5e7e0d8dada1f829bd",
@@ -171,7 +182,6 @@
   "parts_gippo/sounds/tealios-v2_Akira/tab.wav": "0718e9c5b1311b80d3337617d28667297eee897fa56d3d5a1174b94071fbcbf6"
  },
  "notes": [
-  "오래 켜 두어도 메모리를 덜 쓰도록 다듬었어요.",
-  "일시적인 문제로 캐릭터 일부가 잠깐 안 보이면 스스로 되돌아오게 했어요."
+  "새로운 소품 파츠가 추가됐어요. 켤 때마다 랜덤으로 하나씩 나옵니다."
  ]
 }
