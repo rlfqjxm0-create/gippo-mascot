@@ -1,14 +1,14 @@
 {
- "version": 1786135740,
+ "version": 1786251117,
  "files": {
-  "mascot.py": "a740c832e87123b7617babe44068c641bb49c1cb4512378476b151fd2c7cddb0",
+  "mascot.py": "835a9d7ea99b057411799a749c257eff8705dfeef332e12e5b4776bc8466f698",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
   "parts_gippo/arm_right_typing.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/back.png": "c1c1a85bc9a07bb82b1adf2afcaacd585fa5b29f90a2f4af80226a1154c31381",
   "parts_gippo/body_open.png": "52435ff509fc21ba8611000acb3aef8b61caf10e9fda3a1ed2bea545d92c2a23",
-  "parts_gippo/config.json": "b5d3249c935b019009667187bb26ee1b933073cc27fe86e8b47fefad3ab44796",
+  "parts_gippo/config.json": "bb795950167a7746c2ce2a7aac433c79c42d1d91a8caf593c157e074bcbc4b96",
   "parts_gippo/desk.png": "7d715a2d3cb6e2941a3af6cb59de47b966f7185072d190e5d81e10a62f009745",
   "parts_gippo/eyes_closed.png": "abe94a4b64cc1d19c1362d57c45142ac015575656c4696a19af87870693a04e1",
   "parts_gippo/hair.png": "b6652d07e00ee7f8e3cce8b2fe6e43dea9d42a55867d9953a38c7fa86f328769",
@@ -179,8 +179,23 @@
   "parts_gippo/sounds/tealios-v2_Akira/LICENSE.txt": "2e8578f16b6ea265412166e8b4b1da045fcc11f28db03d664908410124a2f01e",
   "parts_gippo/sounds/tealios-v2_Akira/shift.wav": "96ba5efe7c5b612c480d8f1193eeb8fc7a006208badac0a36c0858423b19c9ec",
   "parts_gippo/sounds/tealios-v2_Akira/space.wav": "b47b8e94ff0882a8793322ea6275d6447d9bc7f8de2a88791c9631d1164426ba",
-  "parts_gippo/sounds/tealios-v2_Akira/tab.wav": "0718e9c5b1311b80d3337617d28667297eee897fa56d3d5a1174b94071fbcbf6"
+  "parts_gippo/sounds/tealios-v2_Akira/tab.wav": "0718e9c5b1311b80d3337617d28667297eee897fa56d3d5a1174b94071fbcbf6",
+  "stickers/app.py": "aec3746a70fd004af5fd7100db522c6852a7ff0fde3c4458f824e81acd0a505f",
+  "stickers/editor.py": "541d92a634cc910e32ef6f837731d7556ae472ed1a7add5377d98b366ce34ff7",
+  "stickers/layered.py": "5535d72bffce5307b687053f297f0f7a36f1a5acf296d0956bb70aeff5d3f9fa",
+  "stickers/sticker_icon.ico": "e1ced0f5c5cd1b963ebfad7d839b5b1d78959ac0fc37bba5859a40c0afda4221",
+  "stickers/textmaker.py": "f75a9e4e9cac8ac120ee2ac3bec6546572e1cb908f3bd6ca6605913b6f18f471",
+  "stickers/__init__.py": "d77e3dc92cb353dced8d192c140643c6458bc3901facdf2e0a0d0830fa4244b7",
+  "youtube_player.py": "33dd7fc8cf781b8b8a37c1a60a54b7506ebce5b44399d28fc0841d143d19e70c"
  },
- "notes": [],
- "silent": true
+ "notes": [
+  "작업 종료를 누르면 나오는 '오늘의 작업' 화면이 새로워졌어요. 왼쪽 시계에 오늘 일한 시간대가 칠해집니다 — 옅은 색이 오전, 진한 색이 오후예요. 오른쪽에는 작업 시간과 앉았다 일어난 시각, 가장 오래 집중한 시간, 몇 번에 나눠 일했는지가 나와요.",
+  "[새 프로그램 필요] 바탕화면 스티커가 생겼어요. 캐릭터 우클릭 → 환경설정 → 스티커에서 그림을 골라 바탕화면에 붙일 수 있어요. 붙인 스티커를 누르면 모서리 손잡이로 크기와 회전을 바꿀 수 있고, 잠그면 클릭이 통과해서 작업에 방해가 되지 않아요. 타이머를 끄면 스티커도 같이 사라집니다.",
+  "[새 프로그램 필요] 유튜브 음악이 생겼어요. 캐릭터 우클릭 → '유튜브 노래'에 링크를 넣으면 타이머 카드 위 동그란 버튼으로 재생·정지할 수 있어요. 영상 없이 소리만 나오고, 음악이 나오는 동안 캐릭터가 음표를 띄우며 가끔 리듬을 탑니다. 처음 넣을 때 뜨는 로그인 창에서 유튜브에 로그인해 두면 그 계정으로 재생돼요 (프리미엄이면 광고 없이).",
+  "스티커와 유튜브는 위쪽 '새 프로그램 받기'에서 받아 예전 폴더를 덮어써야 쓸 수 있어요. 설정과 기록은 따로 보관되니 그대로 남습니다."
+ ],
+ "link": {
+  "url": "https://github.com/rlfqjxm0-create/gippo-mascot/raw/main/gippo-mascot.zip",
+  "label": "새 프로그램 받기"
+ }
 }
