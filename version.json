@@ -1,7 +1,7 @@
 {
- "version": 1786617570,
+ "version": 1786694879,
  "files": {
-  "mascot.py": "6d36c4edb716e86f7afa9d300668e0e0184649199a7581ceffa7ba6c82eb6ccf",
+  "mascot.py": "64e1755edf354792d57185440bcd0137a8d62e1dd000b7a35c5240fe6f96f398",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -27,6 +27,8 @@
   "parts_gippo/prop8_back.png": "8947115f1399f47d35a793ae7ffef9a7943ef7292d40a89c62f56d4ed840364f",
   "parts_gippo/prop9.png": "f3708e680e77d73e8dc34c27aaee073fbcd13360925a9ed6747a615b8bacd599",
   "parts_gippo/pupils.png": "9be116dd5f50b86abcb0a03073f749cf6b2b92fdb39b6152779c3e4b4a64b7e4",
+  "parts_gippo/seat.png": "a2a500aad5e24d9bbf1699cae13b34f79405e23b476296015efd4698f151f274",
+  "parts_gippo/seat_idle.png": "f673b4d30bb54e6189b008eff0f8fcd3514a11c6a7f5241cfc4b1da45701a836",
   "parts_gippo/smile.png": "cef7dcbeba73987a928e71556add039873afe4680675c003b9941aeaa4b78c49",
   "parts_gippo/sounds/apex-pro-tkl-v2_Akira/config.json": "7511749602b0050f49964cf0255e0affb3871d852bf7bc5e7e0d8dada1f829bd",
   "parts_gippo/sounds/apex-pro-tkl-v2_Akira/enter.wav": "fe7998dabcc579dd88b8ecb3b22f942efc880bd75f9794b792a41f5c10b51ef3",
