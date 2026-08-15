@@ -1,7 +1,7 @@
 {
- "version": 1786762303,
+ "version": 1786834348,
  "files": {
-  "mascot.py": "b5921d786a3f482de26df4bbc979f0a0b14a8c6f7dbcd370e67ac5363553818b",
+  "mascot.py": "5e3e1c67fcf55493e9c6e480391fd0e50d42c25776a8264f8a82180e0ea440a7",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -14,8 +14,13 @@
   "parts_gippo/hair.png": "b6652d07e00ee7f8e3cce8b2fe6e43dea9d42a55867d9953a38c7fa86f328769",
   "parts_gippo/hat.png": "4bd1da80b760cff3694c7b21350e8dce6a177026846dcd737d796ad7560f277f",
   "parts_gippo/head.png": "0396e202af9beead3c6b118dccd82dbec49310c35839f971cec7eb4f38d9323a",
-  "parts_gippo/layout.json": "7add804c28dc3ab007f4f0e7ff5054e2fde05e557b2b1ac381ec469b2324249e",
+  "parts_gippo/layout.json": "d5d27fcb339fb42804a4c4e67fb1701f5cb608c582e51b59a64a54e7d331e41e",
   "parts_gippo/prop1.png": "9c9a9e473d4555c27bd79cf034d8e89f1e24d3ceb135e22af2bd1e9e124eae0f",
+  "parts_gippo/prop10_back.png": "9c151b667a305e0b40917014640ebb0b599d65f77fbb44f467f973eb245a4198",
+  "parts_gippo/prop11.png": "5018d089066acf04ff2118046d99d1112eacb9819345988f562674b49035022f",
+  "parts_gippo/prop12.png": "8695e3a96e06a2f1ccd88c656e3b89849b01d63ee78fd97f7ca1f855ad55e541",
+  "parts_gippo/prop13.png": "58dae74feecbcf30f38ef048f1638d0c8444a9a959d426ee0f40eb20eff5c6a7",
+  "parts_gippo/prop14.png": "f287103ec83d2880ec7352fb85842da7b68c7b9c72c68858cd6b44c94268323f",
   "parts_gippo/prop2.png": "9bc9d054486d8bae5265b8e32578f2775e46a282454d2507d7928bca65e2f139",
   "parts_gippo/prop3.png": "c747b74d6f50d0a99ff15c96512b0fc53865a8796d88df9686442df5a1df7f97",
   "parts_gippo/prop4.png": "04490f5b20b6384e8892f60b8e9631e34058c5afb4fab1fb1f7a5168b3119037",
@@ -27,12 +32,12 @@
   "parts_gippo/prop8_back.png": "8947115f1399f47d35a793ae7ffef9a7943ef7292d40a89c62f56d4ed840364f",
   "parts_gippo/prop9.png": "f3708e680e77d73e8dc34c27aaee073fbcd13360925a9ed6747a615b8bacd599",
   "parts_gippo/pupils.png": "9be116dd5f50b86abcb0a03073f749cf6b2b92fdb39b6152779c3e4b4a64b7e4",
-  "parts_gippo/seat.png": "b4d25e13f69c0611c7f36e6190c6ba5dcf2db0aa905020338c5ac10767e90259",
-  "parts_gippo/seat_idle.png": "d921655d446fd1502dcd0550a04a6a3148935d8ceab65753dd2522016bf8f330",
-  "parts_gippo/seat_meta.json": "0e00ce1519f5f37264e2833848d2cef1fb082a5e4d530d719f953c7cb9bec994",
-  "parts_gippo/seat_pen.png": "002f37ac92a8e01a3b1644fc3c7fca3910d30aa547da9f11b01477d58a148922",
-  "parts_gippo/seat_pen2.png": "5ba0f431611d40798de366a71cb2f66af1ad96adaeba70cd974d7fce0edcfa71",
-  "parts_gippo/seat_type.png": "33e3b63654ae4f189399550fcca7351c975935bd5328ef67ae30e2a093803cea",
+  "parts_gippo/seat.png": "83840f87a1cde6ff6908489896b917f9a5cc53f53a4be27daa82d64202e46f50",
+  "parts_gippo/seat_idle.png": "61227d166bb20bc768ccc86a87151c941ffad4d0275da70d04bbadb4c5c08072",
+  "parts_gippo/seat_meta.json": "4f451aea5bca60ff5374bfcf725c304bee754d9d6f9fe99fb23fa516bb5caf8c",
+  "parts_gippo/seat_pen.png": "41ffe0843870b644ae88b4870987c3796a11271689328c8b4f8313ed1d8c67b5",
+  "parts_gippo/seat_pen2.png": "0a1f416c451dbac8fe6f7f57b99a07e7b5558e27ee7deed25d4affe4f27b537c",
+  "parts_gippo/seat_type.png": "ee0827d923424a8beaf462d59de2a7cad9db0b3921ff1a6d021ba250d6f001e0",
   "parts_gippo/smile.png": "cef7dcbeba73987a928e71556add039873afe4680675c003b9941aeaa4b78c49",
   "parts_gippo/snacks/apple.png": "150520add67ecd14f0deeeb3f658c30c21eaf93ad970460d7747e0dcf13a74c3",
   "parts_gippo/snacks/banana.png": "bc9497f204048d4f825f1c3a818e6684c1eec82192bf8164fc4d3300b9dc5bc2",
@@ -292,6 +297,8 @@
   "stickers/__init__.py": "d77e3dc92cb353dced8d192c140643c6458bc3901facdf2e0a0d0830fa4244b7",
   "youtube_player.py": "33dd7fc8cf781b8b8a37c1a60a54b7506ebce5b44399d28fc0841d143d19e70c"
  },
- "notes": [],
- "silent": true
+ "notes": [
+  "타이머 안정성",
+  "소품 추가"
+ ]
 }
