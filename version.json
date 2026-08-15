@@ -1,7 +1,7 @@
 {
- "version": 1786835072,
+ "version": 1786837023,
  "files": {
-  "mascot.py": "05ab15e2503d393d6981134286139f6c9cb2d733cc9f833118bc672000997468",
+  "mascot.py": "d41e2f26686a3096a1cb9c600e02dede82ade40dbf8622e6a5ad4faf5b142dd2",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -12,6 +12,7 @@
   "parts_gippo/desk.png": "7d715a2d3cb6e2941a3af6cb59de47b966f7185072d190e5d81e10a62f009745",
   "parts_gippo/eyes_closed.png": "abe94a4b64cc1d19c1362d57c45142ac015575656c4696a19af87870693a04e1",
   "parts_gippo/hair.png": "b6652d07e00ee7f8e3cce8b2fe6e43dea9d42a55867d9953a38c7fa86f328769",
+  "parts_gippo/hand.png": "14fcba700a6266576b2d5a5e8d6aa308f53ff0d00008e93ee51526d08eec067f",
   "parts_gippo/hat.png": "4bd1da80b760cff3694c7b21350e8dce6a177026846dcd737d796ad7560f277f",
   "parts_gippo/head.png": "0396e202af9beead3c6b118dccd82dbec49310c35839f971cec7eb4f38d9323a",
   "parts_gippo/layout.json": "d5d27fcb339fb42804a4c4e67fb1701f5cb608c582e51b59a64a54e7d331e41e",
