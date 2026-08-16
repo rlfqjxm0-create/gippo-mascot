@@ -1,5 +1,5 @@
 {
- "version": 1786891497,
+ "version": 1786891943,
  "files": {
   "mascot.py": "f1a3acbd652c1a65ef405f759b9db341ac0757dc65f10aa1268a965012429473",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
@@ -8,7 +8,7 @@
   "parts_gippo/arm_right_typing.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/back.png": "c1c1a85bc9a07bb82b1adf2afcaacd585fa5b29f90a2f4af80226a1154c31381",
   "parts_gippo/body_open.png": "52435ff509fc21ba8611000acb3aef8b61caf10e9fda3a1ed2bea545d92c2a23",
-  "parts_gippo/config.json": "97fed306380b444bd8b8c004640d099ad5a0a0d4be4547482228c80c5c6c5218",
+  "parts_gippo/config.json": "c22507247a4d0632640c9e8319ed99c2f27a0bf4abbc49bc8b4a563cc0f6ee7d",
   "parts_gippo/desk.png": "7d715a2d3cb6e2941a3af6cb59de47b966f7185072d190e5d81e10a62f009745",
   "parts_gippo/eyes_closed.png": "abe94a4b64cc1d19c1362d57c45142ac015575656c4696a19af87870693a04e1",
   "parts_gippo/hair.png": "b6652d07e00ee7f8e3cce8b2fe6e43dea9d42a55867d9953a38c7fa86f328769",
@@ -310,6 +310,11 @@
   "stickers/__init__.py": "d77e3dc92cb353dced8d192c140643c6458bc3901facdf2e0a0d0830fa4244b7",
   "youtube_player.py": "33dd7fc8cf781b8b8a37c1a60a54b7506ebce5b44399d28fc0841d143d19e70c"
  },
- "notes": [],
- "silent": true
+ "notes": [
+  "오늘의 노래 추천(오노추)이 생겼어요\n홈에서 내 칸을 누르면 '오늘 한 줄' 밑에 유튜브 주소 칸이 있습니다. 노래를 걸면 제목을 자동으로 받아 오고, 친구들 홈에서 내 카드에 ♪ 말풍선이 떠요. 말풍선을 누르면 그 노래로 이동하고, 노래가 걸린 카드에서는 음표가 둥실거립니다. 날이 바뀌면 저절로 내려가요.",
+  "목표를 다 채우면 칭찬할 수 있어요\n누군가의 게이지가 100%가 되면 그 사람에게 '칭찬' 버튼이 켜집니다. 칭찬을 받으면 금별이 사방으로 터지면서 축하 인사가 떠요. 아직 목표를 못 채운 사람에게는 버튼이 잠겨 있습니다.",
+  "도장판을 친구에게 공개할 수 있어요\n도장판 아래의 자물쇠를 누르면 공개로 바뀌고, 친구들 홈에서 내 카드에 달력 아이콘이 생겨 이번 달 도장을 볼 수 있습니다. 기본은 비공개이고, 언제든 다시 잠글 수 있어요.",
+  "도장판에 일기를 쓸 수 있어요\n내 도장판에서 날짜를 누르면 아래가 늘어나면서 짧은 일기 칸이 나옵니다. 엔터로 저장되고, 일기를 쓴 날에는 작은 점이 찍혀요. 일기는 내 컴퓨터에만 남습니다 — 도장판을 공개해도 일기는 절대 안 보여요.",
+  "수다가 늘었어요\n캐릭터마다 혼잣말이 30개씩 늘었습니다. 프고는 이번에 처음으로 자기만의 개구리 말투가 생겼어요. 그리고 간식마다 어울리는 소리가 나고(사과는 바삭, 음료는 꿀꺽), 간식은 이제 자기 자신에게는 못 줍니다."
+ ]
 }
