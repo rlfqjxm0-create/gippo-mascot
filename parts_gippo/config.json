@@ -306,5 +306,6 @@
     "vol": 1.0
    }
   }
- }
+ },
+ "back_hide_on_prop": true
 }
