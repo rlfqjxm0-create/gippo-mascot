@@ -1,14 +1,15 @@
 {
- "version": 1786905328,
+ "version": 1786905949,
  "files": {
-  "mascot.py": "d57945570dc87810e5f5a57d2658ef7365471934b49634d0ff5e839996ac82ea",
+  "mascot.py": "0e6289b7c0697777dec4afd2efa38f60dca3f76a435e2774002ac1023b240d9f",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
   "parts_gippo/arm_right_typing.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/back.png": "c1c1a85bc9a07bb82b1adf2afcaacd585fa5b29f90a2f4af80226a1154c31381",
   "parts_gippo/body_open.png": "52435ff509fc21ba8611000acb3aef8b61caf10e9fda3a1ed2bea545d92c2a23",
-  "parts_gippo/config.json": "c22507247a4d0632640c9e8319ed99c2f27a0bf4abbc49bc8b4a563cc0f6ee7d",
+  "parts_gippo/config.json": "84ae288399109628de37537610db60c9fc34c023562edc9b8bfe765e59455b5c",
+  "parts_gippo/crown.png": "3fa85115a5e95f41cec066e8be2dba4dddd268d4d697ea7043a14254cb50d123",
   "parts_gippo/desk.png": "7d715a2d3cb6e2941a3af6cb59de47b966f7185072d190e5d81e10a62f009745",
   "parts_gippo/eyes_closed.png": "abe94a4b64cc1d19c1362d57c45142ac015575656c4696a19af87870693a04e1",
   "parts_gippo/hair.png": "b6652d07e00ee7f8e3cce8b2fe6e43dea9d42a55867d9953a38c7fa86f328769",

@@ -337,5 +337,9 @@
    }
   }
  },
- "back_hide_on_prop": true
+ "back_hide_on_prop": true,
+ "lv_floor": {
+  "secs": 39600,
+  "until": "2026-08-24"
+ }
 }
