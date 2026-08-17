@@ -1,7 +1,7 @@
 {
- "version": 1786965455,
+ "version": 1786965851,
  "files": {
-  "mascot.py": "a58bb6cc0e42668cc290a3065d198385816d3bd3a556ee4771e48a9acef34551",
+  "mascot.py": "978618971506d2a12dfcbf2c80ed95d8d14e98ab4c6e7252d3643000d8c73637",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -349,11 +349,6 @@
   "stickers/__init__.py": "d77e3dc92cb353dced8d192c140643c6458bc3901facdf2e0a0d0830fa4244b7",
   "youtube_player.py": "b24fce8125c2234285ae5f8dfbb612eb879c8897476d7fbfcc04856057e42e76"
  },
- "notes": [
-  "홈 타이틀이 시간대별 그림 하늘로 바뀌고, 창에 꽉 차게 커졌어요",
-  "캐릭터가 머리만 살짝 들썩이며 숨 쉬어요 — 몸과 책상은 그대로",
-  "게이지가 둥근 알약 모양이 되고, 저녁 시간대엔 핑크빛이에요",
-  "받은 반응 말풍선이 커져서 누가 콕 했는지 잘 보여요",
-  "뒷 페이지도 아홉 칸으로 채워지고, 캐릭터가 이름표 정중앙에 앉아요"
- ]
+ "notes": [],
+ "silent": true
 }
