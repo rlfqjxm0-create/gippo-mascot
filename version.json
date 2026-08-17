@@ -1,7 +1,7 @@
 {
- "version": 1786960709,
+ "version": 1786961698,
  "files": {
-  "mascot.py": "347ee98b47114e50791765d6a585d1248761d4c12713c6b1c20c63669d183fe4",
+  "mascot.py": "64339ffcf8075294eac342881e58a631fa61f2b53a6f66427c59ae4e5c0f3aea",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -40,6 +40,11 @@
   "parts_gippo/seat_pen.png": "a221b72ee75995cb199ccb55330eb385b99dec171d8d73aee1105d9372ebd3eb",
   "parts_gippo/seat_pen2.png": "172e3ebac0df3273f618deed5582a19c0a851e805a9cf8a032c736ea3204fc5d",
   "parts_gippo/seat_type.png": "8e8a575cde895184db88581308fadd9bcbc542f91185cb6146c418da9ca5e4cb",
+  "parts_gippo/sky_dawn.png": "588c23959f0f6af3c8a5f75fb7eb14ed64d4e8ed567b04bddcf9c2592726c2c1",
+  "parts_gippo/sky_day.png": "8c836f9d19bfde652386227be759bd3cea9ead31c54f35c46eb639a74502445e",
+  "parts_gippo/sky_dusk.png": "357d5a58d58536cd07f06f291be1ea7be6866846a7b83c985a0bcd9af833f321",
+  "parts_gippo/sky_morning.png": "08a2cacc410e1cabe61815bc6601ec4a56265ca792b6f37d247ef597ef89099b",
+  "parts_gippo/sky_night.png": "f762dc17a481c603d8bc1d76f594ace20551e2aab850bfda9cd631f57731ad84",
   "parts_gippo/smile.png": "cef7dcbeba73987a928e71556add039873afe4680675c003b9941aeaa4b78c49",
   "parts_gippo/fonts/Pretendard-Bold.otf": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
   "parts_gippo/fonts/Pretendard-Regular.otf": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
