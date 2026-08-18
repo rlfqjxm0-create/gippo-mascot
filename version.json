@@ -1,7 +1,7 @@
 {
- "version": 1787083011,
+ "version": 1787083600,
  "files": {
-  "mascot.py": "e84b4b68f8771d5315b1a6604e66e9b962ea641971224d667d856f37665beee2",
+  "mascot.py": "71121c486e261fd90ee2ad8af2d9975caf4e7349100d64ad7d60efffbfb7ea93",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
