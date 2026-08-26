@@ -1,7 +1,7 @@
 {
- "version": 1787709822,
+ "version": 1787716043,
  "files": {
-  "mascot.py": "018be95a9e3a5d7bb3d8bd20d600d438dc46a9ad7d7710fb8a518fa457c6946c",
+  "mascot.py": "5efb6f5198fe437b2ecbe25ecc283968d6357e03c0184e4e2d104530b016cd86",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -22,7 +22,7 @@
   "parts_gippo/hand.png": "14fcba700a6266576b2d5a5e8d6aa308f53ff0d00008e93ee51526d08eec067f",
   "parts_gippo/hat.png": "4bd1da80b760cff3694c7b21350e8dce6a177026846dcd737d796ad7560f277f",
   "parts_gippo/head.png": "0396e202af9beead3c6b118dccd82dbec49310c35839f971cec7eb4f38d9323a",
-  "parts_gippo/layout.json": "1793f67b5cfead8eabe54e29b739a641a592bb02662216903dcdfebb168930ab",
+  "parts_gippo/layout.json": "34a3219d5da909465e970ae6d2554bd2bb39cf451893737c9498b8e714a8b0c3",
   "parts_gippo/prop1.png": "9c9a9e473d4555c27bd79cf034d8e89f1e24d3ceb135e22af2bd1e9e124eae0f",
   "parts_gippo/prop10_back.png": "9c151b667a305e0b40917014640ebb0b599d65f77fbb44f467f973eb245a4198",
   "parts_gippo/prop11.png": "5018d089066acf04ff2118046d99d1112eacb9819345988f562674b49035022f",
@@ -54,6 +54,11 @@
   "parts_gippo/prop25_bit4.png": "2f7bdf483649d9e2e412f893591ed376924c236b5c8ff94ec4703d5be9d7c029",
   "parts_gippo/prop26.png": "e828beb0419a178208dcf7f3618981a32018dff58d3fdb99976456e8c9dc2f1a",
   "parts_gippo/prop27.png": "8a5e7570a35c1b49c72b92eb1e94a007adef6349cd4975960142aded81cc4a68",
+  "parts_gippo/prop28.png": "87c841b916fb5e3f0ec79f0510ea196f624b4f5db3bd599e4dffa01ade37780a",
+  "parts_gippo/prop28_bit2.png": "9bfb259d7ee365577942e4b1522ff7f73492991fa35cde1da479eda5b9bed831",
+  "parts_gippo/prop28_bit3.png": "b71168cbe82dd5516e379ae494fa9600e9c8106fa97c38011fbaa7006a14f1f3",
+  "parts_gippo/prop28_bit4.png": "46f4febd7d1dfbef6099fcb9f096db0a4a45dfbdf3b8760912a1589618eb51a6",
+  "parts_gippo/prop28_bit5.png": "6148360538f2eccf9851846272386bae99819fec1f692f9dd14efe4e6977cc0d",
   "parts_gippo/prop3.png": "c747b74d6f50d0a99ff15c96512b0fc53865a8796d88df9686442df5a1df7f97",
   "parts_gippo/prop4.png": "04490f5b20b6384e8892f60b8e9631e34058c5afb4fab1fb1f7a5168b3119037",
   "parts_gippo/prop5.png": "d973fbc579944fb7d1bf7c10c33a0f9bbdafcae275468539040cde5cf0065d34",
@@ -501,6 +506,10 @@
   "stickers/__init__.py": "d77e3dc92cb353dced8d192c140643c6458bc3901facdf2e0a0d0830fa4244b7",
   "youtube_player.py": "0b2e0560b1bf72e55b8ab8623e3083a401842cdafe905a5a0186012617aee9bb"
  },
- "notes": [],
- "silent": true
+ "notes": [
+  "새 소품 4종이 왔어요 — 잠자는 고양이, 김이 폴폴 나는 왕만두, 아기 쪽쪽이, 토끼 머리띠. '소품 새로고침'을 누르다 보면 만날 수 있어요.",
+  "고양이를 클릭하면 야옹 하고 울어요. 고양이 머리를 살살 쓰다듬으면(드래그) 고롱고롱 소리를 내요.",
+  "모두의 플레이리스트에서 퍼오기가 막혀 건너뛰던 곡도 이제 재생돼요. 유튜브 프리미엄을 쓰신다면 음악 메뉴에서 한 번 로그인해 두면 광고 없이 나와요.",
+  "하독의 반려동물 고양이 비비도 있어요! 발과 꼬리를 살랑이는 비비를 클릭하거나 몸을 쓰다듬어 보세요."
+ ]
 }
