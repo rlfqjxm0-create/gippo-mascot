@@ -1,7 +1,7 @@
 {
- "version": 1788739216,
+ "version": 1788756650,
  "files": {
-  "mascot.py": "f0ce1e07be16a9a3edef6cebeb677bcf636f4512b6a71361dd8a613f7d436607",
+  "mascot.py": "2138b00f2dd3bdebc0d64ddabd23854c7ac9c4ab4dd7c395c3460e0a2362a0c4",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -14,7 +14,7 @@
   "parts_gippo/chip_meta.json": "19d1e6c8695852c7445dbb541df4050fb3d0ca7eb0fcbfb71f30cd96c3c757d2",
   "parts_gippo/chip_movie.png": "43bfa1493af45a8adc05b455acda466b56cad4394229cd8a706ae5cde09ed642",
   "parts_gippo/chip_spoon.png": "9c1f69af5de27a78fcff161bc8cacbe21aa3ce8cc5b8ea8294517ae23925f08f",
-  "parts_gippo/config.json": "c4930f4657562edfd4c66d68439feafd362378aa373f106c948dbe709dc091ba",
+  "parts_gippo/config.json": "63a52becae63836cf4a7f8ff40f716883dc6644b4a106d9ae07d4a4c51e78408",
   "parts_gippo/config.json.bak": "9af10c99ccf007d03dd02d4a706ad28322905cb5c580088e669897d0ae1b9554",
   "parts_gippo/crown.png": "b1b7426a0222ac294a782cb06db6c9c4aba4e660591dd1761dc9e4da050175fc",
   "parts_gippo/desk.png": "7d715a2d3cb6e2941a3af6cb59de47b966f7185072d190e5d81e10a62f009745",
@@ -538,11 +538,7 @@
   "youtube_player.py": "9bf9c57c6b368e5ccb2765fb2fca423ea766c23596b606e52bc068046c8c8eac"
  },
  "notes": [
-  "마감 말풍선의 꼬리 방향·자리가 날이 바뀌거나 다시 켜도 그대로예요 (전에는 D-3 → D-2 로 바뀌며 초기화됐어요)",
-  "바탕화면 친구들(띠)을 우클릭하면 '현재 위치 고정' — 켜면 끌어도 안 움직여요",
-  "사해(도로롱 폼)의 앉은 모습에 고양이가 남아 보이던 것을 고쳤어요 (그림을 다시 올렸어요)",
-  "뽀모도로 창 ✿ 메뉴에 '소리 조절' — 알림음마다 게이지로 크기를 맞추고 바로 들어볼 수 있어요 (기본은 더 크게)",
-  "플레이리스트에 정지(■) 단추 — 누르면 재생기가 꺼지고 타이머 위 재생 줄도 사라져요 (환경음이 켜져 있어도)",
-  "같이하기 중에 앱을 끄면 이제 친구들 화면에 퇴장 인사(손 흔들기)가 나와요 — 전에는 8분 뒤 조용히 빠졌어요"
+  "환경설정 › 표시 › 테마 '유리' — 타이머 카드·홈·뽀모도로·플레이리스트·쪽지함·환경설정 창이 유리처럼 비쳐요 (윈도우 · 저장하면 다시 켜져요)",
+  "테마가 유리일 때 그 아래 '유리 불투명도' 슬라이더로 유리를 얼마나 비치게 할지 바로 조절할 수 있어요"
  ]
 }
