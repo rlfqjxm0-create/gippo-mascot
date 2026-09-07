@@ -1,7 +1,7 @@
 {
- "version": 1788761589,
+ "version": 1788763185,
  "files": {
-  "mascot.py": "09c5eec739d965afcb592b1147cacfb57cdac89352c803a6d85471752a2fca31",
+  "mascot.py": "a81fd207fc3bc847ee8da1dae8fba816fac95e57d19bcbecd12017053c658aa3",
   "parts_gippo/arm_key.png": "f3a17961286d6df6aa466357ab22c4fadec7a2c0bbc33fc4542490594135df1e",
   "parts_gippo/arm_pen.png": "619b9cc0b29b0836747b490354a805a100de19007e1ec788fa745ddbc48abe4a",
   "parts_gippo/arm_right.png": "e0dc284222b1be2b20ecafec7902963c7f26ccc8119fb85f39c33ff9b1c62f7e",
@@ -538,8 +538,9 @@
   "youtube_player.py": "9bf9c57c6b368e5ccb2765fb2fca423ea766c23596b606e52bc068046c8c8eac"
  },
  "notes": [
-  "뽀모도로·홈·쪽지함이 기본 테마에서도 OS 표시줄 대신 오른쪽 위 – □ × 단추예요 (□ 는 화면에 꽉 채우기, 위 띠를 잡아 옮기고 가장자리를 잡아 늘여요)",
-  "표시줄 없는 창의 네 모서리가 둥글어요"
+  "사이클이 끝났을 때 '뽀모도로 한 사이클 다시 시작' 단추가 펜이 조금 흘러도 눌려요",
+  "친구 플레이리스트에서 곡이 많아도 뒷줄이 아래 조작줄 위로 안 새요",
+  "같이하기에서 잠깐 쉬는 중인 친구는 머리 위 토마토가 파래져요 (다시 집중하면 원래 색)"
  ],
  "silent": true
 }
